@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Education from "./Education";
 import Header from "./Header.js";
@@ -6,7 +7,7 @@ import Skills from "./Skills";
 import WorkExperience from "./WorkExperience";
 
 function App() {
-  const text = {
+  const [text, setText] = useState({
     header: {
       name: "Zh Rimel",
       occupation: "Data Scientist",
@@ -52,7 +53,7 @@ function App() {
       yearsTwo: "2022 - 2023",
       gpaTwo: "GPA: 4.0",
     },
-  };
+  });
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div style={{ width: "800px" }}>
