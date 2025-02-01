@@ -7,7 +7,7 @@ import Skills from "./Skills";
 import WorkExperience from "./WorkExperience";
 
 function App() {
-  const [text, setText] = useState({
+  const [text] = useState({
     header: {
       name: "Zh Rimel",
       occupation: "Data Scientist",

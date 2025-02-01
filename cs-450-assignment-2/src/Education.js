@@ -39,12 +39,10 @@ function Education({ props }) {
                 marginTop: "4px",
               }}
             >
-              <div style={{ fontWeight: "bold" }}>
-                New Jersey Institute of Technology
-              </div>
-              <div>MS in Data Science</div>
-              <div>2022 - 2023</div>
-              <div>GPA: 4.0</div>
+              <div style={{ fontWeight: "bold" }}>{props.schoolTwo}</div>
+              <div>{props.degreeTwo}</div>
+              <div>{props.yearsTwo}</div>
+              <div>{props.gpaTwo}</div>
             </div>
           </div>
         </div>
